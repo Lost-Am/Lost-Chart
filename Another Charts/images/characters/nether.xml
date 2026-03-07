@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nether.png">
+  <SubTexture name="idle_0" x="0" y="0" width="120" height="120"/>
+  <SubTexture name="idle_1" x="120" y="0" width="120" height="120"/>
+  <SubTexture name="idle_2" x="240" y="0" width="120" height="120"/>
+  <SubTexture name="idle_3" x="360" y="0" width="120" height="120"/>
+  <SubTexture name="idle_4" x="480" y="0" width="120" height="120"/>
+  <SubTexture name="idle_5" x="600" y="0" width="120" height="120"/>
+  <SubTexture name="idle_6" x="720" y="0" width="120" height="120"/>
+  <SubTexture name="idle_7" x="840" y="0" width="120" height="120"/>
+  <SubTexture name="idle_8" x="0" y="120" width="120" height="120"/>
+  <SubTexture name="idle_9" x="120" y="120" width="120" height="120"/>
+  <SubTexture name="idle_10" x="240" y="120" width="120" height="120"/>
+  <SubTexture name="idle_11" x="360" y="120" width="120" height="120"/>
+  <SubTexture name="idle_12" x="480" y="120" width="120" height="120"/>
+  <SubTexture name="idle_13" x="600" y="120" width="120" height="120"/>
+  <SubTexture name="idle_14" x="720" y="120" width="120" height="120"/>
+  <SubTexture name="idle_15" x="840" y="120" width="120" height="120"/>
+</TextureAtlas>
