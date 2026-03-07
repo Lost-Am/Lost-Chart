@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="goofy-ah-eye.png"><SubTexture name="idle0000" x="0" y="0" width="350" height="361" frameX="0" frameY="0" frameWidth="350" frameHeight="361" />
+</TextureAtlas>

@@ -1,0 +1,27 @@
+{
+	"songs": [
+		[
+			"traumatism",
+			"invalid",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "nerfed,normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "",
+	"weekName": "",
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}

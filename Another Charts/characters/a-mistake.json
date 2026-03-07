@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-89,
+				-308
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "sco idle"
+		},
+		{
+			"offsets": [
+				-89,
+				-308
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "sco idle"
+		},
+		{
+			"offsets": [
+				-89,
+				-308
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "sco idle"
+		},
+		{
+			"offsets": [
+				-89,
+				-308
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "sco idle"
+		},
+		{
+			"offsets": [
+				-89,
+				-308
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sco idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sco",
+	"position": [
+		-1210,
+		-660
+	],
+	"healthicon": "distortedbambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		0,
+		0
+	],
+	"camera_position": [
+		-1120,
+		-650
+	],
+	"sing_duration": 6.1,
+	"scale": 9.1
+}

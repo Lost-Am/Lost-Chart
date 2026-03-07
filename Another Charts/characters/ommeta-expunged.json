@@ -1,0 +1,23 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [300, -200],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/goofy-ah-eye",
+	"position": [0, -150],
+	"healthicon": "goofy",
+	"flip_x": false,
+	"healthbar_colors": [20, 20, 40],
+	"camera_position": [-600, -260],
+	"sing_duration": 6,
+	"scale": 3.5,
+	"_editor_isPlayer": false
+}

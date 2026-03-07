@@ -1,0 +1,106 @@
+{
+	"song": {
+		"events": [
+			[
+				92160,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"90"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"ommeta-expunged"
+					]
+				]
+			],
+			[
+				158400,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"90"
+					]
+				]
+			],
+			[
+				162240,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"0"
+					],
+					[
+						"Change Character",
+						"1",
+						"banger-eye"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				254400,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"90"
+					]
+				]
+			],
+			[
+				269760,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"scpomana"
+					]
+				]
+			],
+			[
+				378900,
+				[
+					[
+						"Cinematics (No HUD)",
+						"0.5",
+						"90"
+					]
+				]
+			]
+		]
+	}
+}
