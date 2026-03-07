@@ -1,0 +1,5 @@
+Value 1: type 'on' to turn on the eyesores and 
+type 'off' to turn off the eyesores
+
+note to people that are sensitive with eyesores: 
+turn off the flashing lights so there will be no eyesores.

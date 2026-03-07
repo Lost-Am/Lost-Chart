@@ -1,0 +1,10 @@
+function onEvent(name, value1, value2)
+    	if name == 'Zoom' then
+		zoom = tonumber(value1);
+        	doTweenZoom('asf', 'camGame', zoom, 2, 'cubeOut')
+        	setProperty('defaultCamZoom', zoom)
+		speed = tonumber(value2);
+        	doTweenspeed('asf', 'camGame', speed, 2, 'cubeOut')
+        	setProperty('defaultCamSpeed', speed)
+    	end
+end

@@ -1,0 +1,46 @@
+-- Variables para el contador
+local oppHits = 0
+local bfHits = 0
+
+function onCreatePost()
+    -- Ocultar el texto de puntuación original
+    setProperty('scoreTxt.visible', false)
+
+    -- Crear el texto. Cambié el "+ 25" por "- 45" para que esté ARRIBA de la barra.
+    -- Si lo quieres más arriba o abajo, ajusta ese "- 45".
+    makeLuaText('healthCounter', '', 0, 0, getProperty('healthBar.y') - -25)
+    setTextSize('healthCounter', 21) -- Tamaño que elegiste
+    setObjectCamera('healthCounter', 'camHUD')
+    addLuaText('healthCounter')
+end
+
+-- Sumar cuando el oponente le da a una nota
+function opponentNoteHit(id, direction, noteType, isSustainNote)
+    if not isSustainNote then
+        oppHits = oppHits + 1
+    end
+end
+
+-- Sumar cuando el jugador (BF) le da a una nota
+function goodNoteHit(id, direction, noteType, isSustainNote)
+    if not isSustainNote then
+        bfHits = bfHits + 1
+    end
+end
+
+function onUpdatePost(elapsed)
+    -- X (Opo) + Y (BF) = Z (Total)
+    local totalNotes = oppHits + bfHits
+    
+    -- Salud en porcentaje (multiplicamos health que es 0-2 por 50)
+    local healthPercent = math.max(0, getProperty('health') * 50)
+    
+    -- USAMOS %.2f PARA QUE SIEMPRE SALGAN DOS DECIMALES (ej: 100.00)
+    local hpFormatted = string.format('%.2f', healthPercent)
+    
+    -- Actualizar el string
+    setTextString('healthCounter', 'Notes: ' .. oppHits .. ' + ' .. bfHits .. ' = ' .. totalNotes .. ' | HP: ' .. hpFormatted .. ' %')
+    
+    -- Centrar el texto en la pantalla
+    screenCenter('healthCounter', 'x')
+end

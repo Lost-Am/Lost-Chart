@@ -1,0 +1,196 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "idle",
+      "loop": false,
+      "name": "insane_opposition_bf_idle"
+    },
+    {
+      "offsets": [
+        50,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singLEFT",
+      "loop": false,
+      "name": "insane_opposition_bf_right"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singDOWN",
+      "loop": false,
+      "name": "insane_opposition_bf_down"
+    },
+    {
+      "offsets": [
+        0,
+        50
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singUP",
+      "loop": false,
+      "name": "insane_opposition_bf_up"
+    },
+    {
+      "offsets": [
+        -50,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singRIGHT",
+      "loop": false,
+      "name": "insane_opposition_bf_left"
+    },
+    {
+      "offsets": [
+        50,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singLEFTmiss",
+      "loop": false,
+      "name": "right_miss"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singDOWNmiss",
+      "loop": false,
+      "name": "down_miss"
+    },
+    {
+      "offsets": [
+        0,
+        50
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singUPmiss",
+      "loop": false,
+      "name": "up_miss"
+    },
+    {
+      "offsets": [
+        -50,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "singRIGHTmiss",
+      "loop": false,
+      "name": "left_miss"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "hey",
+      "loop": false,
+      "name": "insane_opposition_bf_hey"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "hurt",
+      "loop": false,
+      "name": "opposition_bf_hurt"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "scared",
+      "loop": true,
+      "name": "insane_opposition_bf_scared"
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "dodge",
+      "loop": false,
+      "name": "opposition_bf_dodge"
+    },
+    {
+      "offsets": [
+        -115,
+        160
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "attack",
+      "loop": false,
+      "name": "opposition_bf_attack"
+    },
+    {
+      "offsets": [
+        -115,
+        160
+      ],
+      "indices": [],
+      "fps": 16,
+      "anim": "pre-attack",
+      "loop": false,
+      "name": "opposition_bf_pre_attack"
+    }
+  ],
+  "vocals_file": "",
+  "no_antialiasing": true,
+  "image": "characters/thearchic_bf_remake",
+  "position": [
+    -50,
+    230
+  ],
+  "healthicon": "bf-thearchic",
+  "flip_x": true,
+  "healthbar_colors": [
+    255,
+    255,
+    255
+  ],
+  "camera_position": [
+    -50,
+    50
+  ],
+  "sing_duration": 6,
+  "scale": 1,
+  "_editor_isPlayer": false,
+  "shake_screen": true,
+  "drain_floor": 0.00999999999999991,
+  "drain_amount": 0.005,
+  "health_drain": true,
+  "shake_intensity": 0.0005,
+  "shake_duration": 0.01
+}

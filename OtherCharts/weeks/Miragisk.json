@@ -1,0 +1,27 @@
+{
+	"songs": [
+		[
+			"Miragist",
+			"nonexistenttrue",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "",
+	"weekName": "",
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}

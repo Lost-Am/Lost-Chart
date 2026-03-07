@@ -1,0 +1,5 @@
+does the thing with the camera on note hit
+
+value 1: on or off
+
+value 2: screen center

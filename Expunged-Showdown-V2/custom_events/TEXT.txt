@@ -1,0 +1,9 @@
+Value 1 chooses from below, Value 2 modifies
+1 = text
+2 = position (format |x, y, time| time optional)(buggy)
+3 = hex color (format |FFFFFF| no parenthises)
+4 = text size (default 25)
+5 = text width (default 300)
+6 = font (uses default if never set. format: yourfont.ttf)
+7 = changes text object (default "customtext")
+8 = reset (resets all values of current object and hides)
