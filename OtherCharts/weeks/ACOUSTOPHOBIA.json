@@ -1,0 +1,27 @@
+{
+	"songs": [
+		[
+			"ACOUSTOPHOBIA",
+			"phonophobia_bf_2d",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "",
+	"weekName": "",
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}

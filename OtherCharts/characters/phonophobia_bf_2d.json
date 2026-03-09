@@ -1,0 +1,141 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "phonophobia_bf_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				110,
+				-20
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "phonophobia_bf_right"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "phonophobia_bf_down"
+		},
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUP",
+			"loop": false,
+			"name": "phonophobia_bf_up"
+		},
+		{
+			"offsets": [
+				-60,
+				10
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "phonophobia_bf_left"
+		},
+		{
+			"offsets": [
+				110,
+				-20
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "right_miss"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "down_miss"
+		},
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "up_miss"
+		},
+		{
+			"offsets": [
+				-60,
+				10
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "left_miss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "hey",
+			"loop": false,
+			"name": "phonophobia_bf_hey"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/phonophobia_bf_2d",
+	"position": [
+		-100,
+		240
+	],
+	"healthicon": "phonophobia_bf_2d",
+	"flip_x": true,
+	"healthbar_colors": [
+		235,
+		235,
+		235
+	],
+	"camera_position": [
+		-50,
+		50
+	],
+	"sing_duration": 12,
+	"scale": 1,
+	"_editor_isPlayer": false,
+	"shake_screen": true,
+    "drain_floor": 0.00999999999999991,
+    "drain_amount": 0.005,
+    "health_drain": true,
+    "shake_intensity": 0.0005,
+    "shake_duration": 0.01
+}
