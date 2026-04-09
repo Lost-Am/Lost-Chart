@@ -9,7 +9,6 @@ function onUpdate(elapsed)
 
         setProperty('dad.y', floatY)
 
-        -- corregir seguimiento de cámara
         if mustHitSection == false then
             setProperty('camFollow.y', floatY + 450)
         end
