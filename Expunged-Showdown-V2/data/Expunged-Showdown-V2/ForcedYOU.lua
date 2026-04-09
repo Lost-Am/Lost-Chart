@@ -1,12 +1,9 @@
--- Expunged-Showdown-V2
--- Overlay pequeño, esquina inferior izquierda
-
 local lastSubText = ""
 
 function onCreate()
-    -- x = 5, y = screenHeight - 45 → pegado a la esquina
+
     makeLuaText('kadeOverlay', 'Expunged-Showdown-V2\n', 600, 5, screenHeight - 45)
-    setTextSize('kadeOverlay', 16) -- tamaño pequeño
+    setTextSize('kadeOverlay', 16)
     setTextAlignment('kadeOverlay', 'left')
     setTextFont('kadeOverlay', 'vcr.ttf')
     setTextBorder('kadeOverlay', 1, '000000')
