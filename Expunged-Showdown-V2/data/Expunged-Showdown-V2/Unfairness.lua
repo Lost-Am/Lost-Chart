@@ -7,7 +7,6 @@ function onUpdate(elapsed)
     songPos = getSongPosition()
     local currentBeat = (songPos / 5000) * (curBpm / 60)
 
-    -- PLAYER
     for i = 0, 3 do
         setPropertyFromGroup(
             'playerStrums',
@@ -24,7 +23,6 @@ function onUpdate(elapsed)
         )
     end
 
-    -- OPPONENT
     for i = 0, 3 do
         setPropertyFromGroup(
             'opponentStrums',
