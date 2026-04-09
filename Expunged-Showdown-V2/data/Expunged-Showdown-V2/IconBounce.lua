@@ -1,11 +1,8 @@
---CODE BY I exist, unfortunately#6537
-
 local bpmbased = false
 local iconhp = 0
 local speed = 0.35
 local hpbased = true
 local transition = 'quintOut'
---https://api.haxeflixel.com/flixel/tweens/FlxEase.html
 
 function onBeatHit()
 if bpmbased then
@@ -26,7 +23,6 @@ function onUpdatePost()
 iconhp = getProperty('healthBar.percent') / 35 * 0.5 + 1
 iconhp2 = -getProperty('healthBar.percent') / 35 * 0.5 + 2.5
 
---base by Семен Гаряев
 
 if hpbased then
  setProperty('iconP1.scale.y', (getProperty('iconP1.scale.y') - 1) / -iconhp + 1)
