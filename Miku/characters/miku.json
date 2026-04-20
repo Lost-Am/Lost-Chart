@@ -1,125 +1,125 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku idle dance",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Miku idle dance"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-33,
 				51
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku Sing Note UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Miku Sing Note UP"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				13,
 				5
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "miss Miku Sing Note DOWN MISS"
+			"fps": 24,
+			"name": "miss Miku Sing Note DOWN MISS",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-17,
 				50
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss Miku Sing Note UP MISS",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "miss Miku Sing Note UP MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-9,
 				7
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "miku hey",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "miku hey"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				1,
 				-86
 			],
-			"anim": "ew",
+			"loop": false,
 			"fps": 24,
-			"name": "ew miku",
-			"indices": []
+			"anim": "ew",
+			"indices": [],
+			"name": "ew miku"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				1
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku Sing Note DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Miku Sing Note DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-67,
 				2
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku Sing Note LEFT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Miku Sing Note LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				30,
 				1
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku Sing Note RIGHT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Miku Sing Note RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-70,
 				2
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss Miku Sing Note LEFT MISS",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "miss Miku Sing Note LEFT MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				32,
 				1
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss Miku Sing Note RIGHT MISS",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "miss Miku Sing Note RIGHT MISS"
 		}
 	],
 	"vocals_file": "",

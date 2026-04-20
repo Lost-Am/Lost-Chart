@@ -4,61 +4,63 @@ function onCreate()
     setObjectCamera('black', 'other')
     setProperty('black.alpha', 0)
     addLuaSprite('black', true)
+
+    setProperty('boyfriend.alpha', 0)
 end
 
+local blockedBeats = {
+    [132]=true,[140]=true,[148]=true,[156]=true,
+    [164]=true,[172]=true,[180]=true,[188]=true,
+    [196]=true,[204]=true,[212]=true,[220]=true,
+    [228]=true,[236]=true,[244]=true,[252]=true
+}
+
 local flashBeats = {
-    [256]=true,[328]=true,[352]=true,[384]=true,
-    [448]=true,[576]=true,[640]=true,[704]=true,
-    [736]=true,[768]=true
+    [256]=true,[328]=true,[352]=true,[384]=true,[448]=true,
+    [512]=true,[576]=true,[640]=true,[672]=true,
+    [704]=true,[736]=true,[768]=true
+}
+
+local fadeOutBeats = {
+    [320]=true,[632]=true,[760]=true,[888]=true
 }
 
 function onBeatHit()
 
+    if curBeat == 24 then
+        doTweenAlpha('bfFade', 'boyfriend', 1, crochet * (64-24) / 1000, 'linear')
+    end
+
+    if blockedBeats[curBeat] then
+        setProperty('camGame.zoom', getProperty('camGame.zoom') - 0.015)
+        setProperty('camHUD.zoom', getProperty('camHUD.zoom') - 0.03)
+    end
+
+    if fadeOutBeats[curBeat] then
+        doTweenAlpha('fadeOut_' .. curBeat, 'black', 1, crochet * 8 / 1000, 'linear')
+    end
+
     if flashBeats[curBeat] then
+        cancelTween('fadeOut_320')
+        cancelTween('fadeOut_632')
+        cancelTween('fadeOut_760')
+        cancelTween('fadeOut_888')
+        cancelTween('dimBlack')
+        setProperty('black.alpha', 0)
         cameraFlash('game', 'FFFFFF', 0.5)
     end
 
-    if curBeat == 320 then
-        doTweenAlpha('dimHUD', 'camHUD', 0.5, crochet * 8 / 1000, 'linear')
-        doTweenAlpha('dimGame', 'camGame', 0.5, crochet * 8 / 1000, 'linear')
+    if curBeat == 896 then
+        cancelTween('fadeOut_888')
+        setProperty('black.alpha', 0)
     end
 
-    if curBeat == 328 then
-        doTweenAlpha('normHUD', 'camHUD', 1, 0.2, 'linear')
-        doTweenAlpha('normGame', 'camGame', 1, 0.2, 'linear')
-    end
-
-    if curBeat == 632 then
-        doTweenAlpha('fade1', 'black', 0.9, crochet * 8 / 1000, 'linear')
-    end
-
-    if curBeat == 640 then
-
-        cameraFlash('game', 'FFFFFF', 0.5)
-
-        runTimer('fadeBack1', 0.1)
-    end
-
-    if curBeat == 760 then
-        doTweenAlpha('fade2', 'black', 1, crochet * 8 / 1000, 'linear')
-    end
-
-    if curBeat == 768 then
-        cameraFlash('game', 'FFFFFF', 0.5)
-        runTimer('fadeBack2', 0.1)
+    if curBeat == 510 then
+        doTweenAlpha('dimBlack', 'black', 0.5, crochet * 2 / 1000, 'linear')
     end
 
     if curBeat == 1024 then
-        doTweenAlpha('fade3', 'black', 1, crochet * (1167-1024) / 1000, 'linear')
-    end
-end
-
-function onTimerCompleted(tag)
-    if tag == 'fadeBack1' then
-        doTweenAlpha('back1', 'black', 0, 0.3, 'linear')
+        doTweenAlpha('fadeFinal', 'black', 1, crochet * 96 / 1000, 'linear')
     end
 
-    if tag == 'fadeBack2' then
-        doTweenAlpha('back2', 'black', 0, 0.3, 'linear')
-    end
 end
