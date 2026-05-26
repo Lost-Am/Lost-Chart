@@ -1,0 +1,27 @@
+{
+	"songs": [
+		[
+			"spam-it",
+			"bopit",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "normal",
+	"weekCharacters": [
+		"1",
+		"1",
+		"1"
+	],
+	"storyName": "",
+	"weekName": "",
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}
